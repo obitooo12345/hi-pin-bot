@@ -15,23 +15,32 @@ An enhanced automated check-in bot for Crypto DAI that handles multiple accounts
 - 📝 Comprehensive reporting - Success/failure/duplicate statistics
 - 💰 Balance display - Shows account balance after successful check-in
 
-## 🛠 Installation
 
-1. Clone the repository:
-   `bash
-   git clone https://github.com/obitooo12345/crypto-dai-auto-checkin.git
-            
+
+## 🚀 Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/crypto-dai-auto-checkin.git
    cd crypto-dai-auto-checkin
+   ```
 
-# 2. Install dependencies:
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-bash
-npm install
-# 3. Create .env file:
+3. **Configure environment**:
+   ```bash
+   cp .env.example .env
+   nano .env  # Edit with your tokens
+   ```
 
-bash
-cp .env.example .env
-# 4. Edit .env file:
+## ⚙️ Usage
+```bash
+node index.js
+```
+*(Copy buttons will appear for all blocks above!)*
 
 ini
 # Add your tokens separated by commas
