@@ -20,9 +20,10 @@ An enhanced automated check-in bot for Crypto DAI that handles multiple accounts
 1. Clone the repository:
    `bash
    git clone https://github.com/yourusername/crypto-dai-auto-checkin.git
+            
    cd crypto-dai-auto-checkin
 
-2. Install dependencies:
+3. Install dependencies:
 
 bash
 npm install
